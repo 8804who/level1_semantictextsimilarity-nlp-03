@@ -202,7 +202,6 @@ if __name__ == '__main__':
 
     paths=['snunlp_KR-ELECTRA-discriminator/model_adam(0.9,0.999).pt','snunlp_KR-ELECTRA-discriminator.adan(0.9,0.98)/model_adam(0.9,0.98).pt']
     predictions=[]
-    # Inference part
     # 저장된 모델로 예측을 진행합니다.
     for path in paths:
         model = torch.load('./model/{model_path}'.format(model_path=path))
