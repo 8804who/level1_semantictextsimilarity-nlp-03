@@ -10,7 +10,7 @@ def preprop_sent(sentence_lst):
     sentence_lst = [re.sub('~+', '~', sentence) for sentence in sentence_lst]
     sentence_lst = [re.sub('\.\.+', '...', sentence) for sentence in sentence_lst]
     sentence_lst = [re.sub('ㅎㅎ+', 'ㅎㅎ', sentence) for sentence in sentence_lst]
-    sentence_lst = [re.sub('ㅋㅋ+', 'ㅋㅋㅋ', sentence) for sentence in sentence_lst]
+    sentence_lst = [re.sub('ㅋㅋ+', 'ㅋㅋ', sentence) for sentence in sentence_lst]
     sentence_lst = [re.sub('ㄷㄷ+', 'ㄷㄷ', sentence) for sentence in sentence_lst]
     sentence_lst = [re.sub('…', '...', sentence) for sentence in sentence_lst]
     return sentence_lst
