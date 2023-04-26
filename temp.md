@@ -28,7 +28,7 @@
 
 ### 3️⃣ 프로젝트 수행 절차 및 방법
 
-![수행절차]()
+![수행절차](https://github.com/boostcampaitech5/level1_semantictextsimilarity-nlp-03/blob/main/process.png?raw=true)
 
 - 세부적인 수행 과정 및 목록 : [프로젝트 수행 과정](https://www.notion.so/a43280acafb948dfb6172967985112d0)
 
