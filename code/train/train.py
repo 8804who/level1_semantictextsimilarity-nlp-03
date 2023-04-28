@@ -135,6 +135,7 @@ if __name__ == '__main__':
     parser.add_argument('--project_name', default="nlp1-electra_model",type=str)
     parser.add_argument('--train_continue', type=str2bool, default=False)
     parser.add_argument('--use_scheduler',type=str2bool, default=False)
+    parser.add_argument('--additional_preprocessing',type=str2bool, default=True)
     args = parser.parse_args()
     
     if args.train_continue: train_continue(args)
